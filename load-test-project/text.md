@@ -8,7 +8,6 @@ PostgreSQL: localhost:5432
 
 
 Оптимизация backend 
-В бэкенд добавьте следующие улучшения:
 
 ### backend/src/items/items.service.ts 
 ```typescript
@@ -36,3 +35,4 @@ export class ItemsService {
     return this.itemsRepository.count();
   }
 }
+
